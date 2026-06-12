@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enriva Global — Direction C · Warm Organic / Terroir</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F6EFE3; --sand:#EADFC8; --clay:#B5613A; --terra:#8A4A2B; --olive:#5E6638; --bark:#2E2519; --ink:#1F1A12;
+  }
+  *{font-family:'Schibsted Grotesk',sans-serif;}
+  body{background:var(--cream); color:var(--ink);}
+  .serif{font-family:'Gloock',serif; font-weight:400;}
+  .eyebrow{letter-spacing:.2em; text-transform:uppercase; font-size:.7rem; font-weight:600;}
+  .arch{border-radius:50% 50% 8px 8px / 32% 32% 8px 8px;}
+  .ring{box-shadow:0 0 0 1px var(--sand), 0 24px 50px -20px rgba(46,37,25,.4);}
+  @keyframes bloom{from{opacity:0;transform:translateY(20px) scale(.99)}to{opacity:1;transform:translateY(0) scale(1)}}
+  .bloom{animation:bloom 1s cubic-bezier(.2,.7,.2,1) both}
+  .d1{animation-delay:.05s}.d2{animation-delay:.2s}.d3{animation-delay:.35s}.d4{animation-delay:.5s}
+  .texture{background-image:radial-gradient(rgba(138,74,43,.07) 1px,transparent 1.4px); background-size:18px 18px;}
+</style>
+</head>
+<body class="antialiased texture">
+
+<div class="bg-[var(--olive)] text-[var(--cream)] text-center py-2 text-xs tracking-widest uppercase">Direction C — Warm Organic / Terroir · mockup</div>
+
+<!-- Nav -->
+<nav class="sticky top-0 z-50 bg-[var(--cream)]/85 backdrop-blur border-b border-[var(--sand)]">
+  <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div class="flex items-center gap-2.5">
+      <span class="w-9 h-9 rounded-full bg-[var(--clay)] text-[var(--cream)] serif text-xl flex items-center justify-center">e</span>
+      <span class="serif text-2xl">Enriva</span>
+    </div>
+    <div class="hidden md:flex items-center gap-9 text-sm font-medium text-[var(--bark)]/70">
+      <a href="#" class="hover:text-[var(--clay)] transition">Our herd</a>
+      <a href="#" class="hover:text-[var(--clay)] transition">The harvest</a>
+      <a href="#" class="hover:text-[var(--clay)] transition">Export</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-[var(--clay)] text-[var(--cream)] hover:bg-[var(--terra)] transition">Enquire</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="max-w-6xl mx-auto px-6 pt-16 pb-24">
+  <div class="grid lg:grid-cols-[.92fr_1.08fr] gap-14 items-center">
+    <div>
+      <p class="eyebrow text-[var(--clay)] bloom d1">From the red earth of Kerala</p>
+      <h1 class="serif text-[3.5rem] sm:text-7xl leading-[.98] mt-6 bloom d2">
+        Soil, <span class="text-[var(--clay)]">grown</span> the<br>old&nbsp;way.
+      </h1>
+      <p class="mt-7 text-lg text-[var(--bark)]/75 max-w-md leading-relaxed bloom d3">
+        Sun-dried fertilizer from our own herd of native Desi cows — turned, dried and sieved by hand, then shipped to the gardens and groves of the Gulf.
+      </p>
+      <div class="mt-9 flex items-center gap-5 bloom d4">
+        <a href="#" class="px-7 py-4 rounded-full bg-[var(--clay)] text-[var(--cream)] font-semibold hover:bg-[var(--terra)] transition">Request a sample</a>
+        <a href="#" class="text-sm font-semibold text-[var(--olive)] underline decoration-2 underline-offset-4 hover:text-[var(--clay)] transition">Read our specs</a>
+      </div>
+    </div>
+    <div class="relative bloom d2">
+      <img src="image4.jpeg" alt="Desi cow at Enriva farm" class="arch ring w-full h-[36rem] object-cover">
+      <div class="absolute top-8 -left-6 bg-[var(--cream)] ring rounded-2xl px-6 py-4 rotate-[-4deg]">
+        <p class="serif text-3xl text-[var(--clay)]">100%</p>
+        <p class="eyebrow text-[var(--bark)]/60 mt-1">Native breed</p>
+      </div>
+      <div class="absolute bottom-10 -right-5 bg-[var(--olive)] text-[var(--cream)] ring rounded-2xl px-6 py-4 rotate-[3deg]">
+        <p class="serif text-2xl">Sun-dried</p>
+        <p class="eyebrow opacity-80 mt-1">No additives</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Values -->
+<section class="bg-[var(--sand)]/60 border-y border-[var(--sand)]">
+  <div class="max-w-6xl mx-auto px-6 py-16 grid sm:grid-cols-3 gap-10">
+    <div><p class="serif text-2xl text-[var(--terra)]">Microbe-rich</p><p class="mt-2 text-[var(--bark)]/70">3× the living biology of standard manure — life desert soil is starved of.</p></div>
+    <div><p class="serif text-2xl text-[var(--terra)]">Thirst-saving</p><p class="mt-2 text-[var(--bark)]/70">Holds water in the root zone, so arid beds drink less and grow more.</p></div>
+    <div><p class="serif text-2xl text-[var(--terra)]">Traceable</p><p class="mt-2 text-[var(--bark)]/70">One farm, one herd, one consistent batch — never aggregated.</p></div>
+  </div>
+</section>
+
+<!-- Story + image -->
+<section class="max-w-6xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
+  <div class="grid grid-cols-2 gap-4">
+    <img src="image1.jpeg" alt="" class="rounded-2xl ring h-80 w-full object-cover">
+    <img src="image2.jpeg" alt="" class="rounded-2xl ring h-80 w-full object-cover mt-10">
+  </div>
+  <div>
+    <p class="eyebrow text-[var(--clay)]">The herd</p>
+    <h2 class="serif text-5xl leading-[1.04] mt-4">400 cows we<br>know by name.</h2>
+    <p class="mt-6 text-lg text-[var(--bark)]/75 leading-relaxed max-w-md">
+      Native Desi cattle, raised on open Kerala pasture. Their dung carries a richer microbial signature than crossbred herds — the quiet reason our fertilizer outperforms in the field.
+    </p>
+    <div class="mt-8 flex gap-8">
+      <div><p class="serif text-4xl text-[var(--clay)]">&lt;12%</p><p class="eyebrow text-[var(--bark)]/50 mt-1">Moisture</p></div>
+      <div><p class="serif text-4xl text-[var(--clay)]">Cochin</p><p class="eyebrow text-[var(--bark)]/50 mt-1">Port of export</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Two grades -->
+<section class="max-w-6xl mx-auto px-6 pb-24">
+  <h2 class="serif text-5xl text-center mb-12">Two grades, one harvest</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-[var(--cream)] ring rounded-3xl p-9">
+      <p class="serif text-3xl text-[var(--clay)]">Powdered</p>
+      <p class="text-[var(--bark)]/60 mt-1 mb-6">Fine-milled · immediate soil integration</p>
+      <dl class="space-y-3 text-sm">
+        <div class="flex justify-between border-b border-[var(--sand)] pb-3"><dt class="text-[var(--bark)]/60">NPK</dt><dd class="font-semibold">3.5 · 1.5 · 1.5</dd></div>
+        <div class="flex justify-between border-b border-[var(--sand)] pb-3"><dt class="text-[var(--bark)]/60">Moisture</dt><dd class="font-semibold">Below 12%</dd></div>
+        <div class="flex justify-between"><dt class="text-[var(--bark)]/60">Packing</dt><dd class="font-semibold">25kg / 50kg</dd></div>
+      </dl>
+    </div>
+    <div class="bg-[var(--olive)] text-[var(--cream)] ring rounded-3xl p-9">
+      <p class="serif text-3xl">Cake</p>
+      <p class="opacity-70 mt-1 mb-6">Compressed · slow-release nutrition</p>
+      <dl class="space-y-3 text-sm">
+        <div class="flex justify-between border-b border-white/15 pb-3"><dt class="opacity-70">NPK</dt><dd class="font-semibold">3.0 · 1.0 · 1.0</dd></div>
+        <div class="flex justify-between border-b border-white/15 pb-3"><dt class="opacity-70">Moisture</dt><dd class="font-semibold">Below 15%</dd></div>
+        <div class="flex justify-between"><dt class="opacity-70">Shelf life</dt><dd class="font-semibold">12+ months</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-[var(--bark)] text-[var(--cream)] texture">
+  <div class="max-w-3xl mx-auto px-6 py-24 text-center">
+    <h2 class="serif text-5xl sm:text-6xl leading-[1.02]">Bring it to your soil.</h2>
+    <p class="mt-5 text-lg opacity-75">Samples, bulk pricing and shipping — a message away.</p>
+    <a href="#" class="inline-block mt-9 px-9 py-4 rounded-full bg-[var(--clay)] text-[var(--cream)] font-semibold hover:bg-[var(--terra)] transition">WhatsApp the export team</a>
+    <p class="eyebrow opacity-50 mt-6">+91 80899 23923 · info@enrivaglobal.com</p>
+  </div>
+</section>
+
+<footer class="py-9 text-center text-xs text-[var(--bark)]/50">© 2026 Enriva Global · Kerala → Gulf · Premium organic fertilizer</footer>
+</body>
+</html>

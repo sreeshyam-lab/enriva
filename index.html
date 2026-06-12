@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enriva Global — Design Directions</title>
+<meta name="robots" content="noindex">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#FBF9F4;--ink:#1C2118;--forest:#243524;--clay:#A6643C;--line:rgba(28,33,24,.14);}
+  *{font-family:'Hanken Grotesk',sans-serif;}
+  body{background:var(--paper);color:var(--ink);}
+  .display{font-family:'Fraunces',serif;}
+  .kicker{letter-spacing:.26em;text-transform:uppercase;font-size:.68rem;font-weight:600;}
+  .card{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s;}
+  .card:hover{transform:translateY(-6px);box-shadow:0 30px 60px -25px rgba(28,33,24,.45);}
+  @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+  .rise{animation:rise .8s cubic-bezier(.2,.7,.2,1) both;}
+  .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}
+</style>
+</head>
+<body class="antialiased">
+<div class="max-w-6xl mx-auto px-6 py-16 sm:py-24">
+
+  <header class="text-center max-w-2xl mx-auto">
+    <p class="kicker text-[var(--clay)] rise d1">Enriva Global · Landing page concepts</p>
+    <h1 class="display text-5xl sm:text-6xl tracking-tight mt-5 rise d2">Three directions to choose from</h1>
+    <p class="mt-6 text-lg text-[var(--ink)]/70 rise d3">
+      Same content and the same real farm photography — three distinct looks. Open each, then tell us which feels right for Enriva.
+    </p>
+  </header>
+
+  <div class="grid md:grid-cols-3 gap-7 mt-16">
+
+    <a href="mockup-a-editorial.html" class="card rise d2 block rounded-3xl overflow-hidden border border-[var(--line)] bg-white">
+      <div class="h-52 overflow-hidden"><img src="image6.jpeg" alt="" class="w-full h-full object-cover"></div>
+      <div class="p-7">
+        <p class="kicker text-[var(--clay)]">Direction A</p>
+        <h2 class="display text-2xl mt-2">Editorial · Quiet Luxury</h2>
+        <p class="mt-3 text-[var(--ink)]/65 text-sm leading-relaxed">Bone &amp; forest, serif headlines, generous whitespace. A premium, trustworthy export house.</p>
+        <span class="inline-block mt-5 text-sm font-semibold border-b-2 border-[var(--clay)] pb-0.5">View direction →</span>
+      </div>
+    </a>
+
+    <a href="mockup-b-industrial.html" class="card rise d3 block rounded-3xl overflow-hidden border border-[var(--line)] bg-white">
+      <div class="h-52 overflow-hidden"><img src="image5.jpeg" alt="" class="w-full h-full object-cover"></div>
+      <div class="p-7">
+        <p class="kicker text-[var(--clay)]">Direction B</p>
+        <h2 class="display text-2xl mt-2">Bold · Agri-Industrial</h2>
+        <p class="mt-3 text-[var(--ink)]/65 text-sm leading-relaxed">Dark green, oversized type, big stats. Projects scale and confidence to bulk buyers.</p>
+        <span class="inline-block mt-5 text-sm font-semibold border-b-2 border-[var(--clay)] pb-0.5">View direction →</span>
+      </div>
+    </a>
+
+    <a href="mockup-c-terroir.html" class="card rise d4 block rounded-3xl overflow-hidden border border-[var(--line)] bg-white">
+      <div class="h-52 overflow-hidden"><img src="image4.jpeg" alt="" class="w-full h-full object-cover"></div>
+      <div class="p-7">
+        <p class="kicker text-[var(--clay)]">Direction C</p>
+        <h2 class="display text-2xl mt-2">Warm Organic · Terroir</h2>
+        <p class="mt-3 text-[var(--ink)]/65 text-sm leading-relaxed">Clay, cream &amp; olive with a hand-made feel. Sells provenance, soil and authenticity.</p>
+        <span class="inline-block mt-5 text-sm font-semibold border-b-2 border-[var(--clay)] pb-0.5">View direction →</span>
+      </div>
+    </a>
+
+  </div>
+
+  <footer class="mt-20 text-center kicker text-[var(--ink)]/40">Enriva Global · Kerala → Gulf · Concept review</footer>
+</div>
+</body>
+</html>

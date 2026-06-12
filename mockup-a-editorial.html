@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enriva Global — Direction A · Editorial / Quiet Luxury</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bone:#F4F0E8; --paper:#FBF9F4; --ink:#1C2118; --forest:#243524; --moss:#3E5A3A; --clay:#A6643C; --line:rgba(28,33,24,.14);
+  }
+  *{font-family:'Hanken Grotesk',sans-serif;}
+  body{background:var(--paper); color:var(--ink);}
+  .display{font-family:'Fraunces',serif; font-optical-sizing:auto;}
+  .kicker{letter-spacing:.28em; text-transform:uppercase; font-size:.68rem; font-weight:600;}
+  .hairline{border-color:var(--line);}
+  .img-frame{filter:saturate(1.02) contrast(1.02);}
+  @keyframes rise{from{opacity:0; transform:translateY(22px)} to{opacity:1; transform:translateY(0)}}
+  .rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both;}
+  .d1{animation-delay:.05s}.d2{animation-delay:.18s}.d3{animation-delay:.31s}.d4{animation-delay:.44s}
+  .grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.035;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+</style>
+</head>
+<body class="antialiased">
+<div class="grain"></div>
+
+<!-- direction label -->
+<div class="bg-[var(--forest)] text-[var(--bone)] text-center py-2 text-xs tracking-widest uppercase">Direction A — Editorial / Quiet Luxury · mockup</div>
+
+<!-- Nav -->
+<nav class="sticky top-0 z-50 bg-[var(--paper)]/85 backdrop-blur-md border-b hairline">
+  <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div class="flex items-baseline gap-3">
+      <span class="display text-2xl font-medium tracking-tight">Enriva</span>
+      <span class="kicker text-[var(--moss)]">Global</span>
+    </div>
+    <div class="hidden md:flex items-center gap-10 text-sm font-medium text-[var(--ink)]/70">
+      <a href="#" class="hover:text-[var(--ink)] transition">The Farm</a>
+      <a href="#" class="hover:text-[var(--ink)] transition">Product</a>
+      <a href="#" class="hover:text-[var(--ink)] transition">Export</a>
+      <a href="#" class="px-5 py-2.5 rounded-full bg-[var(--forest)] text-[var(--bone)] hover:bg-[var(--ink)] transition">Request a sample</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="max-w-6xl mx-auto px-6 pt-16 pb-24 lg:pt-24">
+  <div class="grid lg:grid-cols-[1.05fr_.95fr] gap-14 items-center">
+    <div>
+      <p class="kicker text-[var(--clay)] rise d1">Kerala, India → The Gulf</p>
+      <h1 class="display text-[3.4rem] sm:text-7xl leading-[.95] tracking-[-.02em] mt-6 rise d2">
+        The quiet<br><span class="italic font-light">luxury</span> of<br>real soil.
+      </h1>
+      <p class="mt-8 text-lg text-[var(--ink)]/70 max-w-md leading-relaxed rise d3">
+        Sun-dried Desi-cow fertilizer from our own 400-head herd. Lab-tested, moisture-controlled, and shipped from Cochin to the desert farms and estates of the GCC.
+      </p>
+      <div class="mt-10 flex items-center gap-6 rise d4">
+        <a href="#" class="px-7 py-4 rounded-full bg-[var(--forest)] text-[var(--bone)] font-semibold hover:bg-[var(--ink)] transition">Request export quote</a>
+        <a href="#" class="text-sm font-semibold border-b-2 border-[var(--clay)] pb-1 hover:border-[var(--ink)] transition">View specifications →</a>
+      </div>
+    </div>
+    <div class="relative rise d3">
+      <div class="overflow-hidden rounded-[2rem] shadow-2xl">
+        <img src="image6.jpeg" alt="Desi cow at the Enriva farm" class="img-frame w-full h-[34rem] object-cover">
+      </div>
+      <div class="absolute -bottom-7 -left-7 bg-[var(--paper)] border hairline rounded-2xl px-7 py-5 shadow-xl">
+        <p class="display text-4xl">400+</p>
+        <p class="kicker text-[var(--moss)] mt-1">Pure Desi herd</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Provenance strip -->
+<section class="border-y hairline bg-[var(--bone)]">
+  <div class="max-w-6xl mx-auto px-6 py-7 grid grid-cols-2 md:grid-cols-4 divide-x hairline text-center">
+    <div class="px-4"><p class="display text-3xl">&lt;12%</p><p class="kicker text-[var(--ink)]/50 mt-1">Moisture</p></div>
+    <div class="px-4"><p class="display text-3xl">3×</p><p class="kicker text-[var(--ink)]/50 mt-1">Microbial life</p></div>
+    <div class="px-4"><p class="display text-3xl">100%</p><p class="kicker text-[var(--ink)]/50 mt-1">Single-source</p></div>
+    <div class="px-4"><p class="display text-3xl">GCC</p><p class="kicker text-[var(--ink)]/50 mt-1">Cochin port</p></div>
+  </div>
+</section>
+
+<!-- Editorial about -->
+<section class="max-w-6xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
+  <div class="order-2 lg:order-1">
+    <p class="kicker text-[var(--clay)]">One farm. Full traceability.</p>
+    <h2 class="display text-5xl leading-[1.02] tracking-tight mt-5">Not sourced.<br>Raised.</h2>
+    <p class="mt-7 text-lg text-[var(--ink)]/70 leading-relaxed max-w-md">
+      Most exporters aggregate dung from dozens of villages. We don't. Every kilo comes from one herd we know by name — which is why every batch tests the same.
+    </p>
+    <ul class="mt-9 space-y-4 text-[var(--ink)]/80">
+      <li class="flex gap-4 border-b hairline pb-4"><span class="display text-[var(--moss)]">01</span> Higher microbial count for arid soils</li>
+      <li class="flex gap-4 border-b hairline pb-4"><span class="display text-[var(--moss)]">02</span> Superior water retention in desert beds</li>
+      <li class="flex gap-4 pb-1"><span class="display text-[var(--moss)]">03</span> Natural NPK balance, no synthetics</li>
+    </ul>
+  </div>
+  <div class="order-1 lg:order-2 grid grid-cols-2 gap-4">
+    <img src="image4.jpeg" alt="" class="img-frame rounded-2xl h-72 w-full object-cover translate-y-6">
+    <img src="image1.jpeg" alt="" class="img-frame rounded-2xl h-72 w-full object-cover">
+  </div>
+</section>
+
+<!-- Product -->
+<section class="bg-[var(--forest)] text-[var(--bone)]">
+  <div class="max-w-6xl mx-auto px-6 py-24">
+    <p class="kicker text-[var(--clay)]">Two grades</p>
+    <h2 class="display text-5xl mt-4 mb-14">Export specifications</h2>
+    <div class="grid md:grid-cols-2 gap-px bg-[var(--bone)]/20 rounded-3xl overflow-hidden">
+      <div class="bg-[var(--forest)] p-10">
+        <p class="display text-3xl">Powdered</p>
+        <p class="text-[var(--bone)]/60 mt-2 mb-8">Fine-milled · immediate integration</p>
+        <dl class="space-y-4 text-sm">
+          <div class="flex justify-between border-b border-[var(--bone)]/15 pb-3"><dt class="text-[var(--bone)]/60">NPK</dt><dd>3.5 · 1.5 · 1.5</dd></div>
+          <div class="flex justify-between border-b border-[var(--bone)]/15 pb-3"><dt class="text-[var(--bone)]/60">Moisture</dt><dd>Below 12%</dd></div>
+          <div class="flex justify-between border-b border-[var(--bone)]/15 pb-3"><dt class="text-[var(--bone)]/60">Packing</dt><dd>25kg / 50kg</dd></div>
+          <div class="flex justify-between"><dt class="text-[var(--bone)]/60">Odour</dt><dd class="text-[var(--clay)]">Neutral</dd></div>
+        </dl>
+      </div>
+      <div class="bg-[var(--forest)] p-10">
+        <p class="display text-3xl">Cake</p>
+        <p class="text-[var(--bone)]/60 mt-2 mb-8">Compressed · slow-release</p>
+        <dl class="space-y-4 text-sm">
+          <div class="flex justify-between border-b border-[var(--bone)]/15 pb-3"><dt class="text-[var(--bone)]/60">NPK</dt><dd>3.0 · 1.0 · 1.0</dd></div>
+          <div class="flex justify-between border-b border-[var(--bone)]/15 pb-3"><dt class="text-[var(--bone)]/60">Moisture</dt><dd>Below 15%</dd></div>
+          <div class="flex justify-between border-b border-[var(--bone)]/15 pb-3"><dt class="text-[var(--bone)]/60">Packing</dt><dd>25kg / 50kg</dd></div>
+          <div class="flex justify-between"><dt class="text-[var(--bone)]/60">Shelf life</dt><dd class="text-[var(--clay)]">12+ months</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="max-w-3xl mx-auto px-6 py-28 text-center">
+  <h2 class="display text-5xl sm:text-6xl tracking-tight leading-[1]">Let's talk<br><span class="italic font-light">tonnage.</span></h2>
+  <p class="mt-6 text-lg text-[var(--ink)]/70">Bulk pricing, logistics and lab reports — direct from the export desk.</p>
+  <a href="#" class="inline-block mt-9 px-9 py-4 rounded-full bg-[var(--forest)] text-[var(--bone)] font-semibold hover:bg-[var(--ink)] transition">WhatsApp the export team</a>
+  <p class="kicker text-[var(--ink)]/40 mt-6">+91 80899 23923 · info@enrivaglobal.com</p>
+</section>
+
+<footer class="border-t hairline py-10 text-center text-xs text-[var(--ink)]/50">
+  © 2026 Enriva Global · Kerala → Gulf · Premium organic fertilizer
+</footer>
+</body>
+</html>
